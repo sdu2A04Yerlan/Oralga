@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color1"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".LoginFragment">
+
+    <ImageView
+        android:id="@+id/logo_main_imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/login_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="login" />
+
+        <EditText
+            android:id="@+id/password_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/enter_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#DE0B18"
+            android:text="ENTER"
+            android:textColor="#FBFDFE"
+            android:textSize="@android:dimen/app_icon_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
